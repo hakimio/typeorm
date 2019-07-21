@@ -180,8 +180,7 @@ export type SimpleColumnType =
     |"urowid" // oracle
     |"uniqueidentifier" // mssql
     |"rowversion" // mssql
-    |"array" // cockroachdb
-    |"cube"; // postgres
+    |"array"; // cockroachdb
 
 /**
  * Any column type column can be.
