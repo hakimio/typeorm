@@ -1,0 +1,1 @@
+{"version":3,"sources":["../browser/src/logger/LoggerOptions.ts"],"names":[],"mappings":"","file":"LoggerOptions.js","sourcesContent":["/**\r\n * Logging options.\r\n */\r\nexport type LoggerOptions = boolean|\"all\"|(\"query\"|\"schema\"|\"error\"|\"warn\"|\"info\"|\"log\"|\"migration\")[];\r\n"],"sourceRoot":".."}

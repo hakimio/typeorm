@@ -20,10 +20,5 @@
         "noUnusedLocals": true,
         "downlevelIteration": true
     },
-    "exclude": [
-        "tmp",
-        "temp",
-        "build",
-        "node_modules"
-    ]
+    "exclude": ["node_modules", "test", "dist", "**/*spec.ts", "tmp", "temp", "build"]
 }
